@@ -12,7 +12,7 @@ tTable = [
 
 def sigmoid(x):
     return 1/(1 + e**(-x))
-        
+
 
 def summation(xs, ws, b=0):
     res = 0

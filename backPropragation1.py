@@ -10,6 +10,8 @@ tTable = [
     [1, 1, 0],
 ]
 
+
+
 def sigmoid(x):
     return 1/(1 + e**(-x))
         
