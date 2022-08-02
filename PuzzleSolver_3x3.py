@@ -104,21 +104,6 @@ def next_steps(mat, p=True, checkAlready =True):
     return result
 
 
-def check_traversed():
-    global initial
-    step = 0
-    index_ = 0
-    temp = []
-    for i in range(1, len(traversedState_)+1):
-        # print("HERE....")
-        lastTraversed = traversedState_[-i:][0]
-               
-        if initial in next_steps(lastTraversed, False, False):
-            print_matrix(temp)
-            # print("HERE....2")
-            return step
-        temp.append(lastTraversed)
-
     
         
 step = 0  
